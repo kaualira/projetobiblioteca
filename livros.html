@@ -1,16 +1,190 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <title>Livros</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-    </head>
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<title>Livros</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="imagens/manoelgatinho.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/homegomes.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="imagens/dagrao.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  <div>
+    <img src="imagens/amor.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 115px;">
+    <a href="amor.html">
+  <button type="button" class="btn btn-outline-primary" style="position: absolute; margin-left: 1002px; margin-top: 300px;">O Amor</button>
+    </a>
+  <img src="imagens/anna.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 115px;">
+  <a href="anna.html">
+  <button type="button" class="btn btn-outline-secondary" style="position: absolute; margin-left: 729px; margin-top: 299px;width: 113px;">Anna Karenina</button>
+</a>
+  <img src="imagens/catadores.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:438px;margin-top: 115px;">
+  <a href="catadores.html">
+  <button type="button" class="btn btn-outline-success" style="position: absolute; margin-left: 400px; margin-top: 300px;">Os catadores de conchas</button>
+</a>
+  <img src="imagens/cemAnos.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 115px;">
+  <a href="cemanos.html">
+  <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 127px;margin-top: 300px;">Cem Anos de solidão</button>
+</a>
+  <img src="imagens/crime.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 365px;">
+  <a href="crime.html">
+  <button type="button" class="btn btn-outline-warning" style="position: absolute;margin-left: 164px;margin-top: 555px;">Crime e Castigo</button>
+</a>
+  <img src="imagens/dom.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:433px;margin-top: 365px;">
+  <a href="domcas.html">
+  <button type="button" class="btn btn-outline-info" style="position: absolute;margin-top: 555px;margin-left: 455px;">Dom Casmurro</button>
+</a>
+  <img src="imagens/dorian.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 365px;">
+  <a href="dorian.html">
+  <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 729px;margin-top: 555px;">O retrato de Dorian Gray</button>
+</a>
+  <img src="imagens/miseraveis.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 365px;">
+  <a href="osmiseraveis.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 555px;">Os Miseraveis</button>
+</a>
+  <img src="imagens/morro.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 620px;">
+  <a href="lacasainfernal.html">
+  <button type="button" class="btn btn-outline-primary" style="position: absolute;margin-left: 164px;margin-top: 820px;">La casa infernal</button>
+</a>
+  <img src="imagens/orgulho.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 620px;">
+  <a href="amitvile.html">
+  <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 450px;margin-top: 820px;">Amityvile</button>
+</a>
+  <img src="imagens/amityvile.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 620px;">
+  <a href="orgulhoeprec.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 820px;">Orgulho e Preconceito</button>
+</a>
+  <img src="imagens/casain.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 620px;">
+  <a href="omorro.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 820px;">O morro dos ventos uivantes</button>
+</a>
+  <img src="imagens/desfiladeiro.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 869px;">
+  <a href="ascronicas.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1060px;">As cronicas de narnia</button>
+</a>
+  <img src="imagens/exorcista.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 869px;">
+  <a href="oexorc.html">
+  <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 450px;margin-top: 1060px;">The exorcista</button>
+</a>
+  <img src="imagens/A Roda do Tempo jpg.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1120px;">
+  <a href="casadoinferno.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1060px;">HellHouse</button>
+</a>
+  <img src="imagens/Game of Thrones.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 110px;margin-left:723px;margin-top: 1120px;">
+  <a href="asbrumas.html">
+  <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 990px;margin-top: 1060px;">As Brumas de avalon</button>
+</a>
+  <img src="imagens/iluminado.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1355px;">
+  <a href="oluminado.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1310px;">O iluminado</button>
+</a>
+  <img src="imagens/it.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1355px;">
+  <a href="oolhodomundo.html">
+  <button type="button" class="btn btn-outline-warning" style="position: absolute;margin-left: 450px;margin-top: 1310px;">The eye of the world</button>
+</a>
+  <img src="imagens/grandes obras de William Shakespeare.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1355px;">
+  <a href="gameofthrones.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1310px;">Game of Thrones</button>
+</a>
+  <img src="imagens/A riqueza das nações.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1355px;">
+  <a href="amarcadavit.html">
+  <button type="button" class="btn btn-outline-primary" style="position: absolute;margin-left: 990px;margin-top: 1310px;">A Marca da Vitoria</button>
+</a>
+  <img src="imagens/Fome de Poder- a Verdadeira História do Fundador do McDonald's.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1355px;">
+  <a href="fomedepoder.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1550px;">Fome de Poder</button>
+</a>
+  <img src="imagens/persepolis.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1590px;">
+  <a href="asgrandesobras.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 450px;margin-top: 1550px;">As Grandes Obras</button>
+</a>
+  <img src="imagens/profecia.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1590px;">
+  <a href="ariquezadasnacoes.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1550px;">A Riqueza das Nações</button>
+</a>
+  <img src="imagens/Duna .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1590px;">
+  <a href="it.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 1550px;">It: A coisa</button>
+</a>
+  <img src="imagens/A ética protestante e o espírito do capitalismo.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 110px;margin-left:149px;margin-top: 1590px;">
+  <a href="aetica.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 54px;margin-top: 1775px;">A etica protestante e o espirito do capitalismo</button>
+</a>
+  <img src="imagens/Corte de Espinhos e Rosas.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1825px;">
+  <a href="duna.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 455px;margin-top: 1775px;">Duna</button>
+</a>
+  <img src="imagens/Autobiografia de Gandhi-Minha vida e minhas experiências com a verdade.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1825px;">
+  <a href="auto.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1775px;">A Profecia</button>
+</a>
+  <img src="imagens/A Loja de Tudo-Jeff Bezos e a Era da Amazon.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1825px;">
+  <a href="loja.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 1775px;">Persepolis</button>
+</a>
+  <img src="imagens/myriam.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1825px;">
+  <a href="myriam.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 2010px;">Diario de Myrian</button>
+</a>
+  <img src="imagens/Crítica da Razão Pura.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1120px;">
+  <a href="critica.html">
+  <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 450px;margin-top: 2010px;">A loja de tudo</button>
+</a>
+  <img src="imagens/A marca da Vitória.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1120px;">
+  <a href="amarcadavit.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 2010px;">Ghandi</button>
+</a>
+  <img src="imagens/iluminado.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1120px;">
+  <a href="estrutura.html">
+  <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 2010px;">Corte de Espinhos e rosas</button>
+</a>
+  <img src="imagens/As Crônicas de Nárnia .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 869px;">
+  <a href="ascronicas.html">
 
+</a>
+  <img src="imagens/As Brumas de Avalon .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 869px;">
+
+    <br>
+    <br>
+    <br>
     <div id="carouselExampleCaptions" class="carousel slide">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -19,21 +193,21 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="imagens/meumanomanoel.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/manoelgatinho.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
           <div class="carousel-item">
-            <img src="imagens/manoelboladefutebol.jpg" class="d-block w-100" alt="...">
+            <img src="..." class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
@@ -50,76 +224,5 @@
         </button>
       </div>
 
-    <div>
-        <img src="imagens/amor.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 115px;">
-        <a href="https://getbootstrap.com/docs/5.3/components/carousel.com.br">
-      <button type="button" class="btn btn-outline-primary" style="position: absolute; margin-left: 1002px; margin-top: 300px;">O Amor</button>
-        </a>
-      <img src="imagens/anna.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 115px;">
-      <button type="button" class="btn btn-outline-secondary" style="position: absolute; margin-left: 729px; margin-top: 299px;width: 113px;">Anna Karenina</button>
-      <img src="imagens/catadores.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:438px;margin-top: 115px;">
-      <button type="button" class="btn btn-outline-success" style="position: absolute; margin-left: 400px; margin-top: 300px;">Os catadores de conchas</button>
-      <img src="imagens/cemAnos.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 115px;">
-      <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 127px;margin-top: 300px;">Cem Anos de solidão</button>
-      <img src="imagens/crime.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 365px;">
-      <button type="button" class="btn btn-outline-warning" style="position: absolute;margin-left: 164px;margin-top: 555px;">Crime e Castigo</button>
-      <img src="imagens/dom.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:433px;margin-top: 365px;">
-      <button type="button" class="btn btn-outline-info" style="position: absolute;margin-top: 555px;margin-left: 455px;">Dom Casmurro</button>
-      <img src="imagens/dorian.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 365px;">
-      <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 700px;margin-top: 555px;">O retrato de Dorian Gray</button>
-      <img src="imagens/miseraveis.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 365px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 555px;">Os Miseraveis</button>
-      <img src="imagens/morro.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 620px;">
-      <button type="button" class="btn btn-outline-primary" style="position: absolute;margin-left: 164px;margin-top: 820px;">La casa infernal</button>
-      <img src="imagens/orgulho.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 620px;">
-      <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 450px;margin-top: 820px;">Amityvile</button>
-      <img src="imagens/amityvile.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 620px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 820px;">Orgulho e Preconceito</button>
-      <img src="imagens/casain.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 620px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 820px;">O morro dos ventos uivantes</button>
-      <img src="imagens/desfiladeiro.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 869px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1060px;">As cronicas de narnia</button>
-      <img src="imagens/exorcista.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 869px;">
-      <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 450px;margin-top: 1060px;">The exorcista</button>
-      <img src="imagens/A Roda do Tempo jpg.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1120px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1060px;">HellHouse</button>
-      <img src="imagens/Game of Thrones.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 110px;margin-left:723px;margin-top: 1120px;">
-      <button type="button" class="btn btn-outline-success" style="position: absolute;margin-left: 990px;margin-top: 1060px;">As Brumas de avalon</button>
-      <img src="imagens/iluminado.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1355px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1310px;">O iluminado</button>
-      <img src="imagens/it.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1355px;">
-      <button type="button" class="btn btn-outline-warning" style="position: absolute;margin-left: 450px;margin-top: 1310px;">The eye of the world</button>
-      <img src="imagens/grandes obras de William Shakespeare.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1355px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1310px;">Game of Thrones</button>
-      <img src="imagens/A riqueza das nações.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1355px;">
-      <button type="button" class="btn btn-outline-primary" style="position: absolute;margin-left: 990px;margin-top: 1310px;">A Marca da Vitoria</button>
-      <img src="imagens/Fome de Poder- a Verdadeira História do Fundador do McDonald's.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1355px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 1550px;">Fome de Poder</button>
-      <img src="imagens/persepolis.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1590px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 450px;margin-top: 1550px;">As Grandes Obras</button>
-      <img src="imagens/profecia.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1590px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1550px;">A Riqueza das Nações</button>
-      <img src="imagens/Duna .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1590px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 1550px;">It: A coisa</button>
-      <img src="imagens/A ética protestante e o espírito do capitalismo.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 110px;margin-left:149px;margin-top: 1590px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 54px;margin-top: 1775px;">A etica protestante e o espirito do capitalismo</button>
-      <img src="imagens/Corte de Espinhos e Rosas.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1825px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 455px;margin-top: 1775px;">Duna</button>
-      <img src="imagens/Autobiografia de Gandhi-Minha vida e minhas experiências com a verdade.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:723px;margin-top: 1825px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 1775px;">A Profecia</button>
-      <img src="imagens/A Loja de Tudo-Jeff Bezos e a Era da Amazon.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:430px;margin-top: 1825px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 1775px;">Persepolis</button>
-      <img src="imagens/myriam.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1825px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 164px;margin-top: 2010px;">Diario de Myrian</button>
-      <img src="imagens/Crítica da Razão Pura.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1120px;">
-      <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 450px;margin-top: 2010px;">A loja de tudo</button>
-      <img src="imagens/A marca da Vitória.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 1120px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 729px;margin-top: 2010px;">Ghandi</button>
-      <img src="imagens/A estrutura das revoluções científicas.jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 1120px;">
-      <button type="button" class="btn btn-outline-dark" style="position: absolute;margin-left: 990px;margin-top: 2010px;">Corte de Espinhos e rosas</button>
-      <img src="imagens/As Crônicas de Nárnia .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:149px;margin-top: 869px;">
-      <button type="button" class="btn btn-outline-primary" style="position: absolute;margin-left: 990px;margin-top: 1875px;">Setimo</button>
-      <img src="imagens/As Brumas de Avalon .jpg" class="object-fit-sm-contain border rounded" alt="..." style="position: absolute;width: 120px;margin-left:984px;margin-top: 869px;">
-      <button type="button" class="btn btn-outline-danger" style="position: absolute;margin-left: 990px;margin-top: 1875px;">Setimo</button>
 </body>
 </html>
