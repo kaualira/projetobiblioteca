@@ -9,3 +9,26 @@
     left: 645px;
     top: 290px;
 }
+body {
+    margin: 0px;
+}
+
+  .container-fluid {
+    background-color: rgb(183, 183, 183); 
+
+  }
+
+  .simbolo {
+    width: 150px;
+    height: 100px;
+  }
+.navbar {
+    padding: none;
+}
+.video {
+    width: 900px;
+    /* height: 100px; */
+    position: relative;
+    left: 15%;
+    margin-top: 35px;
+}
